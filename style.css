@@ -1,0 +1,23 @@
+body {
+}
+
+.wrapper {
+	max-width: 500px;
+	margin: auto;
+	
+}
+.wrapper h1 {
+	font-size: 150%;
+	background-color: lightgrey;
+	height: 200%;
+	}	
+.wrapper .phone {
+	font-size: 100%;
+}
+.wrapper .city {
+	font-size: 50%;
+}
+table {
+	width: 100%;
+	font-size: 150%;
+}
