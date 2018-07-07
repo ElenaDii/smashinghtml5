@@ -23,7 +23,7 @@ header {
 p {
 	background-color:#4a4f55;
 	color: #de8285;
-}
+
  h1 {
  	font-size: 24px;
  }
@@ -33,23 +33,14 @@ p {
 	padding: 15px 0;
 	font-size: 15px;
 	text-align: left;
+}
+	}
+li:nth-child(even){
+	background-color: #7a7593;
+	width: 100%;
 	}
 
-li:nth-child(1){
+li:nth-child(odd){
+	background-color: #88849f;
 	width: 100%;
-}
-li:nth-child(2){
-	width: 100%;
-}
-li:nth-child(3){
-	width: 100%;
-}
-li:nth-child(4){
-	width: 100%;
-}
-li:nth-child(5){
-	width: 100%;
-}
-li:nth-child(6){
-	width: 100%;
-}
+	}
