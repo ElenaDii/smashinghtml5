@@ -28,9 +28,6 @@ ul {
 	border-left: 3px solid #ffffff;
 	
 }
-ul :hover {
-	opacity: 0.7;
-}
 
 li {
 	list-style-type: none;
@@ -91,4 +88,12 @@ li:nth-child(11){
 
 p {
 	padding: 20px;
+}
+
+ul:hover {
+	opacity: 0.7;
+}
+
+ul li:hover {
+	opacity: 0.1;
 }
