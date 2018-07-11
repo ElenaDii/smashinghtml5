@@ -11,22 +11,27 @@ html, body{
 }
 
 body{
-	width: 800px;
+	width: 1020px;
 	margin: 0 auto;
 	border-color: #2a81ae;
 	border-style: solid;
-	border-width: 10px;
-	padding: 30px;
+	border-width: 16px;
+	padding: 0px 150px;
 }
+
 h1 {
 	font-size: 18px;
-	padding: 20px
+	margin: 20px 0;
 }
+main {
+margin: 0 auto;
+}
+
 ul {
 	font-size: 0;
 	border-top: 3px solid #ffffff; 
 	border-left: 3px solid #ffffff;
-	
+	width: 688px;
 }
 
 li {
@@ -35,10 +40,11 @@ li {
 	border-right: 3px solid #ffffff;
 	border-bottom: 3px solid #ffffff;
 	padding: 20px 0;
-	font-size: 15px;
-	text-align: center;
+	font-size: 20px;
+	text-align: center;s
 }
 .wi {
+	font-size: 30px;
 	opacity: 0.7;
 }
 
@@ -88,12 +94,9 @@ li:nth-child(11){
 
 p {
 	padding: 20px;
+	margin-bottom: 70px;
 }
 
-ul:hover {
-	opacity: 0.7;
-}
-
-ul li:hover {
-	opacity: 0.1;
+ul:hover li:not(:hover) {
+opacity:0.5;
 }
