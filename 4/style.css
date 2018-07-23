@@ -72,6 +72,14 @@ footer {
 	font-size: 18px;
 	}
 
-input[type="checkbox"] {
+input[type="checkbox"]:checked + span {
 	text-decoration: line-through;
+}
+
+li:nth-child(odd) {
+	background-color: #8883A1;
+}
+
+li:nth-child(even) {
+	background-color: #7A7593;
 }
