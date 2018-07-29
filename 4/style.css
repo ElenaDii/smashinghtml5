@@ -3,8 +3,9 @@
 	padding: 0;
 	border: 0;
 	box-sizing: border-box;
-	
+	transition: all .1s ease-in;
 	}
+
 body {
 	border: 17px solid white;
 	text-align: center;
@@ -49,11 +50,13 @@ header {
 	padding-left: 10px;
 }
 
-li:hover {
+li:hover  {
 	opacity: 0.7;
 	border-top: 2px solid #fff;
 	border-bottom: 2px solid #fff; 
+	
 }
+
 
 span:nth-last-child(1) {
 	font-size: 11px;
@@ -72,8 +75,12 @@ footer {
 	font-size: 18px;
 	}
 
-input[type="checkbox"]:checked + span {
+input[type="checkbox"]:checked+span{
 	text-decoration: line-through;
+}
+
+.row:active {
+	background-color: #de8285;
 }
 
 li:nth-child(odd) {
