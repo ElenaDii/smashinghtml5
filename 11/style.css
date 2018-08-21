@@ -1,0 +1,44 @@
+
+body {
+	max-width: 800px;
+	
+}
+.checkerboard {
+	box-sizing: border-box;
+	border: 10px solid #A1703B;
+height:277px;
+	width: 277px;
+	
+
+}
+.border {
+	border: 3px solid black;
+	box-sizing: border-box;
+	height:277px;
+	width: 277px;
+	
+}
+.black{
+	background: black;
+}
+
+
+
+li {
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	margin: 0;
+	float: left;
+}
+img {
+	width: 30px;
+	height: 30px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	}
